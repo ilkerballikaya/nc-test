@@ -1,0 +1,6 @@
+csspath:
+- /static/css/main.css
+rootqjson: /microui/authorization/qjson/LoginPage
+alertqjson: /settings/qjson/alert.qjson
+  # /microui/preapplication/qjson/alper.js 
+  # /moneytransfer/qjsonfunc?qjsonpath=MoneyTransferEntry.js

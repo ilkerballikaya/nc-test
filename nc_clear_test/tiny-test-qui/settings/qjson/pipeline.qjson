@@ -1,0 +1,86 @@
+let pjson = {
+	"pJson": [
+		{
+			"T": "Messaging",
+			"P": {
+				"ID": {
+					"H": "EdtrComp_22",
+					"T": "prop"
+				}
+			},
+			"E": {
+				"onBeforeRequest": {
+					"H": "// declare const requestObject : any\r\n\r\n// let pipelineBagStoreValue = quick.store.get(\"#pipelineBagStoreKey\");\r\n\r\n// //adding header\r\n// requestObject.headers[\"pipelineKey\"] = \"pipelineValue\"\r\n// //adding header from bagStore\r\n// requestObject.headers[\"pipelineBagStoreKey\"] = pipelineBagStoreValue\r\n\r\n// //adding header according to url\r\n// if(requestObject.url.includes(\"employees\")){\r\n//     requestObject.headers[\"pipelineKey2\"] = \"pipelineValue2\"\r\n// }\r\n\r\n",
+					"C": true,
+					"EV": true,
+					"HL": "TS"
+				},
+				"onAfterResponse": {
+					"H": "// quick.EM.trace(\"OnAfterResponse\");\r\n// quick.EM.trace(response);",
+					"C": true,
+					"EV": true,
+					"HL": "TS"
+				}
+			},
+			"C": {},
+			"_Editor": {
+				"eID": "EdtrComp_22"
+			},
+			"O": {
+				"compDomClasses": "newDropBorder",
+				"cType": "child"
+			}
+		}
+	],
+	"cJson": [
+		{
+			"T": "Messaging",
+			"P": {
+				"ID": {
+					"H": "EdtrComp_22",
+					"T": "prop"
+				}
+			},
+			"E": {
+				"onBeforeRequest": {
+					"H": "// declare const requestObject : any\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRWR0ckNvbXBfMjJfb25CZWZvcmVSZXF1ZXN0X0UuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJFZHRyQ29tcF8yMl9vbkJlZm9yZVJlcXVlc3RfRS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFDQSxvQ0FBb0MiLCJzb3VyY2VzQ29udGVudCI6WyJcbi8vIGRlY2xhcmUgY29uc3QgcmVxdWVzdE9iamVjdCA6IGFueVxyXG5cclxuLy8gbGV0IHBpcGVsaW5lQmFnU3RvcmVWYWx1ZSA9IHF1aWNrLnN0b3JlLmdldChcIiNwaXBlbGluZUJhZ1N0b3JlS2V5XCIpO1xyXG5cclxuLy8gLy9hZGRpbmcgaGVhZGVyXHJcbi8vIHJlcXVlc3RPYmplY3QuaGVhZGVyc1tcInBpcGVsaW5lS2V5XCJdID0gXCJwaXBlbGluZVZhbHVlXCJcclxuLy8gLy9hZGRpbmcgaGVhZGVyIGZyb20gYmFnU3RvcmVcclxuLy8gcmVxdWVzdE9iamVjdC5oZWFkZXJzW1wicGlwZWxpbmVCYWdTdG9yZUtleVwiXSA9IHBpcGVsaW5lQmFnU3RvcmVWYWx1ZVxyXG5cclxuLy8gLy9hZGRpbmcgaGVhZGVyIGFjY29yZGluZyB0byB1cmxcclxuLy8gaWYocmVxdWVzdE9iamVjdC51cmwuaW5jbHVkZXMoXCJlbXBsb3llZXNcIikpe1xyXG4vLyAgICAgcmVxdWVzdE9iamVjdC5oZWFkZXJzW1wicGlwZWxpbmVLZXkyXCJdID0gXCJwaXBlbGluZVZhbHVlMlwiXHJcbi8vIH1cclxuXHJcblxuIGV4cG9ydHt9O1xuIl19",
+					"C": true,
+					"EV": true,
+					"HL": "JS"
+				},
+				"onAfterResponse": {
+					"H": "Object.defineProperty(exports, \"__esModule\", { value: true });\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRWR0ckNvbXBfMjJfb25BZnRlclJlc3BvbnNlX0UuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJFZHRyQ29tcF8yMl9vbkFmdGVyUmVzcG9uc2VfRS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlc0NvbnRlbnQiOlsiXG4vLyBxdWljay5FTS50cmFjZShcIk9uQWZ0ZXJSZXNwb25zZVwiKTtcclxuLy8gcXVpY2suRU0udHJhY2UocmVzcG9uc2UpO1xuIGV4cG9ydHt9O1xuIl19",
+					"C": true,
+					"EV": true,
+					"HL": "JS"
+				}
+			},
+			"C": {},
+			"_Editor": {
+				"eID": "EdtrComp_22"
+			},
+			"O": {
+				"compDomClasses": "newDropBorder",
+				"cType": "child"
+			}
+		}
+	],
+	"lrids": {
+		"tr-TR": {
+			"validationMsg": "'Lütfen zorunlu alanları giriniz.'"
+		},
+		"en-US": {
+			"validationMsg": "'Please enter all required fields'"
+		}
+	},
+	"clrids": {
+		"tr-TR": {
+			"validationMsg": "╬'Lütfen zorunlu alanları giriniz.'╩╩"
+		},
+		"en-US": {
+			"validationMsg": "╬'Please enter all required fields'╩╩"
+		}
+	},
+	"description": {}
+};
+export default pjson

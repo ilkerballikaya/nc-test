@@ -1,0 +1,19 @@
+let pjson = {
+	"lrids": {
+		"tr-TR": {
+			"sampleGlobalLRKey": "'Örnek global metin'"
+		},
+		"en-US": {
+			"sampleGlobalLRKey": "'Sample global text'"
+		}
+	},
+	"clrids": {
+		"tr-TR": {
+			"sampleGlobalLRKey": "╬'Örnek global metin'╩╩"
+		},
+		"en-US": {
+			"sampleGlobalLRKey": "╬'Sample global text'╩╩"
+		}
+	}
+};
+export default pjson

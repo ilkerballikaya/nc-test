@@ -1,0 +1,20 @@
+{
+  "name": "tiny-test-qui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "symphony-cli qui-build",
+    "link": "npm link quick_qui",
+    "start": "symphony-cli qui-start"
+  },
+  "devDependencies": {
+    "quick_qui": "^1.0.253",
+    "symphony-cli": "^0.2.244"
+  },
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "dist"
+  ]
+}
